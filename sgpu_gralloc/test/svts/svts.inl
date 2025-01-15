@@ -40,7 +40,7 @@ enum class SgrPixelFormat : int32_t {
 
         /// PrivateFormat
         /// Invariant: PrivateFormat should be non-overlapping with to PixelFormat
-        /// From exynos definition hardware/samsung_slsi/exynos/include/exynos_format.h
+        /// From exynos definition hardware/samsung_slsi-linaro/exynos/include/exynos_format.h
         PRIVATE_YCBCR_420_P_M               = 0x101,
         PRIVATE_CBYCRY_422_I                = 0x103,
         PRIVATE_YCBCR_420_SP_M              = 0x105,
