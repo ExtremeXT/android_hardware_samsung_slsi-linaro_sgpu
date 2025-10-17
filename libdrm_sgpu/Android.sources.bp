@@ -11,6 +11,6 @@ cc_defaults {
         "amdgpu_vamgr.c",
         "amdgpu_vm.c",
         "handle_table.c",
-        "sgpu_sysfs.c"
+        "sgpu_sysfs.c",
     ],
 }

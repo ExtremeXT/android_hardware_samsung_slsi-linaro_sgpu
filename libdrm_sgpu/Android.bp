@@ -4,7 +4,7 @@ cc_library_shared {
     name: "libdrm_sgpu",
 
     cflags: [
-	"-DAMDGPU_ASIC_ID_TABLE=\"/vendor/libs/gpu.ids\""
+        "-DAMDGPU_ASIC_ID_TABLE=\"/vendor/libs/gpu.ids\"",
     ],
 
     defaults: [
@@ -12,8 +12,13 @@ cc_library_shared {
         "libdrm_sgpu_sources",
     ],
     include_dirs: [
-                "hardware/samsung_slsi-linaro/exynos/include",
+        "hardware/samsung_slsi-linaro/exynos/include",
     ],
     vendor: true,
-    shared_libs: ["libdrm","libion_exynos","liblog","libcutils",],
+    shared_libs: [
+        "libdrm",
+        "libion_exynos",
+        "liblog",
+        "libcutils",
+    ],
 }
